@@ -1,5 +1,5 @@
 {
-    "BigQuery Schema": [{
+    "BigQuery Schema": [{ 
       "name": "rank",
       "type": "STRING"
      },

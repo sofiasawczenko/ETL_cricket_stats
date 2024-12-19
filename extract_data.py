@@ -2,10 +2,12 @@ import requests
 import csv
 
 url = 'https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen'
+
 headers = {
-     "X-RapidAPI-Key": "Replace with your RapidAPI key"  # Replace with your RapidAPI key
-    'X-RapidAPI-Host': 'cricbuzz-cricket.p.rapidapi.com'
+	"x-rapidapi-key": "xxx",
+	"x-rapidapi-host": "xxx"
 }
+
 params = {
     'formatType': 'odi'
 }
